@@ -35,6 +35,17 @@ public class Prodotto {
         return this.prezzo;   
     }
 
+    public String getInfo(){
+
+        String str = "";
+        str += "Codice: " + this.codice + "\n";
+        str += "Nome: " + this.nome + "\n";
+        str += "Marca: " + this.marca + "\n";
+        str += "IVA: " + this.iva + "\n";
+        str += "Prezzo: " + this.prezzo + "\n"; 
+
+        return str;
+    }
     
     
     /* SETTER */

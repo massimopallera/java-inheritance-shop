@@ -18,6 +18,14 @@ public class Cuffia extends Prodotto {
         return this.isWireless ? "Cuffie Wireless" : "Cuffie con cavo";
     }
 
+    @Override
+    public String getInfo(){
+        String str = super.getInfo();
+        str += "Colore: " + this.colore + "\n";
+        str += "Wireless: " + this.getIsWireless() + "\n";
+
+        return str;
+    }
 
 
 

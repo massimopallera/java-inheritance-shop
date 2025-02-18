@@ -26,6 +26,13 @@ public class Televisore extends Prodotto{
         return this.isSmart ? "Tv Smart" : "Tv NON Smart";
     }
 
+    @Override
+    public String getInfo(){
+        String str = super.getInfo();
+        str += this.getDimesioni() + "\n";
+        str += "Smart: " + this.getIsSmart() + "\n";
 
+        return str;
+    }
 
 }
