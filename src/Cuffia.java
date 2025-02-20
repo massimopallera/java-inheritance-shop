@@ -9,6 +9,12 @@ public class Cuffia extends Prodotto {
         this.colore = colore;
         this.isWireless = isWireless;
     }
+    
+    Cuffia(String colore, boolean isWireless){
+        // super(nome, marca, iva, prezzo);
+        this.colore = colore;
+        this.isWireless = isWireless;
+    }
 
     public String getColore(){
         return this.colore;

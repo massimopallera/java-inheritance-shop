@@ -8,6 +8,11 @@ public class Smartphone extends Prodotto{
         this.imei = imei;
         this.memoria = memoria;
     }
+    Smartphone(String imei, int memoria){
+        // super(nome, marca, iva, prezzo);
+        this.imei = imei;
+        this.memoria = memoria;
+    }
 
     public String getImei(){
         return this.imei;

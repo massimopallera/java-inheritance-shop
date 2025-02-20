@@ -18,6 +18,10 @@ public class Prodotto {
         this.prezzo = prezzo;
     }
 
+    Prodotto(){
+        
+    }
+
     /* GETTER */
     public int getCodice(){
         return this.codice;

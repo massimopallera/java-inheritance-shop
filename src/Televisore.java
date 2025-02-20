@@ -15,6 +15,14 @@ public class Televisore extends Prodotto{
         this.isSmart = isSmart;
     }
 
+    Televisore(float altezza, float lunghezza, float profondita, boolean isSmart){
+        // super(nome, marca, iva, prezzo);
+        this.altezza = altezza;
+        this.lunghezza = lunghezza;
+        this.profondita = profondita;
+        this.isSmart = isSmart;
+    }
+
     public String getDimesioni(){
         
         String str = "Altezza: " + this.altezza + "cm\nLunghezza: " + this.lunghezza + "cm\nProdondità: " + this.profondita + "cm";
